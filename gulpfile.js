@@ -1,32 +1,9 @@
-//test1.html
-// var gulp = require('gulp');
-// var inlinesource = require('gulp-inline-source');
-
-// gulp.task('inlinesource', function () {
-//     return gulp.src('./src/html/*.html')
-//         .pipe(inlinesource())
-//         .pipe(gulp.dest('./out'));
-// });
-
-//test2.html
 var gulp = require('gulp');
 var concat = require('gulp-concat');
 var minify = require('gulp-minify');
 var cleanCss = require('gulp-clean-css');
 var del = require('del');
 var inlinesource = require('gulp-inline-source');
-
-gulp.task('clean-js', function () {
-  return del([
-    'build/js/*.js'
-  ]);
-});
-
-gulp.task('clean-css', function () {
-  return del([
-    'build/css/*.css'
-  ]);
-});
 
 function cleanout() {
     return del([
