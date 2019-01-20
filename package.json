@@ -1,0 +1,19 @@
+{
+  "name": "html-inliner-template",
+  "version": "1.0.0",
+  "description": "Template to build html with inlined dependencies",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "author": "Ankit Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "del": "3.0.0",
+    "gulp": "4.0.0",
+    "gulp-clean-css": "4.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-inline-source": "4.0.0",
+    "gulp-minify": "3.1.0"
+  }
+}
