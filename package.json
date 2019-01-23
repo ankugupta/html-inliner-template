@@ -1,7 +1,7 @@
 {
   "name": "html-inliner-template",
   "version": "1.0.0",
-  "description": "Template to build html with inlined dependencies",
+  "description": "Template to build html with inlined css/js dependencies and images. Just use 'inline' attribute in your tags and execute npm build",
   "main": "index.js",
   "scripts": {
     "build": "gulp build"
